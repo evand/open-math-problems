@@ -6,12 +6,12 @@
 
 Inspired by the July 2026 counterexample to the **Jacobian conjecture** (Levent Alpöge + Claude, a 216-character polynomial map ℂ³→ℂ³ with constant Jacobian determinant that is not injective — n ≥ 3 refuted, n = 2 still open, preprint under review). One more reminder that "open" is a temporary condition — see the [graveyard](#-recently-fell-calibration-for-the-whole-list) at the bottom for what "solvable" has looked like lately.
 
-**How to read an entry.** Each problem gets, where they exist:
+**How to read an entry.** Links are marked by favicon, where they exist:
 
-- **[W]** Wikipedia (or best available documentation)
-- **[Lean]** a formal statement in Lean 4, almost always in Google DeepMind's [formal-conjectures](https://github.com/google-deepmind/formal-conjectures) repo (statements, not proofs!)
-- **[M]** Manifold prediction markets, usually the "is it *true*?" market — probabilities are snapshots from **July 2026** and will drift
-- **[F]** other forecasting / notable public expert discussion (Metaculus links are search links, their API is login-walled)
+- <img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia — or <img src="https://arxiv.org/favicon.ico" width="14" height="14"> arXiv where no decent article exists
+- <img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> a formal statement in Lean 4, almost always in Google DeepMind's [formal-conjectures](https://github.com/google-deepmind/formal-conjectures) repo (statements, not proofs!)
+- <img src="https://manifold.markets/favicon.ico" width="14" height="14"> Manifold prediction markets, usually the "is it *true*?" market — probabilities are snapshots from **July 2026** and will drift
+- <img src="https://www.metaculus.com/favicon.ico" width="14" height="14"> Metaculus (search links — their API is login-walled) and other public forecasting or notable expert discussion
 
 Corrections and additions welcome — PRs open. Especially wanted: markets and formalizations that exist but aren't linked here.
 
@@ -20,261 +20,261 @@ Corrections and additions welcome — PRs open. Especially wanted: markets and f
 ## S — Load-bearing pillars of mathematics
 
 1. **Riemann Hypothesis (+ GRH for L-functions)** — thousands of theorems are conditional on it; secretly a statement about the "spectrum" of the primes. The one problem on both Hilbert's 1900 list and the Millennium list.
-   [W](https://en.wikipedia.org/wiki/Riemann_hypothesis) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Millenium/RiemannHypothesis.lean) (also stated in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/LSeries/RiemannZeta.html)) · [M: true/false/independent?](https://manifold.markets/1014112/is-the-riemann-hypothesis-true-fals) · [M: AI resolves it before 2035 — 42%](https://manifold.markets/HarrisonLucas/ai-program-resolves-riemann-hypothe) · [F: Metaculus](https://www.metaculus.com/questions/?search=riemann%20hypothesis)
+   [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Riemann_hypothesis) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Millenium/RiemannHypothesis.lean) (also stated in [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Mathlib](https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/LSeries/RiemannZeta.html)) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> proven or refuted before 2050 — 50%](https://manifold.markets/intiluha/will-riemann-hypothesis-be-proven-o?r=RXZhbkRhbmllbA) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> if false, how many counterexamples?](https://manifold.markets/ArmandodiMatteo/if-the-riemann-hypothesis-is-false?r=RXZhbkRhbmllbA) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> AI resolves it before 2035 — 42%](https://manifold.markets/HarrisonLucas/ai-program-resolves-riemann-hypothe?r=RXZhbkRhbmllbA) · [<img src="https://www.metaculus.com/favicon.ico" width="14" height="14"> Metaculus](https://www.metaculus.com/questions/?search=riemann%20hypothesis)
 2. **P vs NP** — the only problem here whose answer changes what civilization can do, not just what mathematicians know. Also the deepest: we can't even prove weak circuit lower bounds.
-   [W](https://en.wikipedia.org/wiki/P_versus_NP_problem) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Millenium/PvsNP.lean) · [M: P = NP? — 8%](https://manifold.markets/IsaacKing/does-p-np) · [M: resolved before humans land on Mars — 37%](https://manifold.markets/warty/will-p-vs-np-be-resolved-before-man) · [F: Aaronson's survey](https://www.scottaaronson.com/papers/pnp.pdf) & [Gasarch's polls](https://www.cs.umd.edu/~gasarch/BLOGPAPERS/pollpaper3.pdf) (~80–90% of experts say P ≠ NP)
+   [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/P_versus_NP_problem) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Millenium/PvsNP.lean) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> P = NP? — 8%](https://manifold.markets/IsaacKing/does-p-np?r=RXZhbkRhbmllbA) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> resolved before humans land on Mars — 37%](https://manifold.markets/warty/will-p-vs-np-be-resolved-before-man?r=RXZhbkRhbmllbA) · [Aaronson's survey](https://www.scottaaronson.com/papers/pnp.pdf) & [Gasarch's polls](https://www.cs.umd.edu/~gasarch/BLOGPAPERS/pollpaper3.pdf) (~80–90% of experts say P ≠ NP)
 3. **Langlands functoriality / general reciprocity** — the grand unification of number theory, representation theory, and harmonic analysis. Technically a program, not a problem, but FLT was a corollary of one corner of it. That's the tier it lives in.
-   [W](https://en.wikipedia.org/wiki/Langlands_program) · geometric Langlands (function-field analogue) was proven in 2024 ([Gaitsgory–Raskin et al.](https://people.mpim-bonn.mpg.de/gaitsgde/GLC/)) — the arithmetic case is the S-tier monster
+   [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Langlands_program) · geometric Langlands (function-field analogue) was proven in 2024 ([Gaitsgory–Raskin et al.](https://people.mpim-bonn.mpg.de/gaitsgde/GLC/)) — the arithmetic case is the S-tier monster
 
 ## A — Field-defining
 
 4. **Birch–Swinnerton-Dyer** — the bridge between analysis and arithmetic of elliptic curves; rank part and finiteness of Ш both open in general.
-   [W](https://en.wikipedia.org/wiki/Birch_and_Swinnerton-Dyer_conjecture) · [M: true? — 84%](https://manifold.markets/NcyRocks/is-the-birch-and-swinnertondyer-con) · [M: which Millennium problem falls next?](https://manifold.markets/NcyRocks/which-millennium-prize-problem-will-c4fce2048343)
+   [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Birch_and_Swinnerton-Dyer_conjecture) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> true? — 84%](https://manifold.markets/NcyRocks/is-the-birch-and-swinnertondyer-con?r=RXZhbkRhbmllbA) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> which Millennium problem falls next?](https://manifold.markets/NcyRocks/which-millennium-prize-problem-will-c4fce2048343?r=RXZhbkRhbmllbA)
 5. **Hodge Conjecture** — which topology is algebraic; the health check for all of algebraic geometry.
-   [W](https://en.wikipedia.org/wiki/Hodge_conjecture) · [M: true? — 80%](https://manifold.markets/NcyRocks/is-the-hodge-conjecture-true) · [M: Litt's $25k bet against a claimed AI-assisted proof — 99%](https://manifold.markets/IsaacKing/will-daniel-litt-win-his-25000-bet)
+   [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Hodge_conjecture) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> true? — 80%](https://manifold.markets/NcyRocks/is-the-hodge-conjecture-true?r=RXZhbkRhbmllbA) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> Litt's $25k bet against a claimed AI-assisted proof — 99%](https://manifold.markets/IsaacKing/will-daniel-litt-win-his-25000-bet?r=RXZhbkRhbmllbA)
 6. **Tate Conjecture + Grothendieck's Standard Conjectures** — the motives package; Hodge's arithmetic sibling, arguably more consequential than Hodge itself.
-   [W: Tate](https://en.wikipedia.org/wiki/Tate_conjecture) · [W: Standard](https://en.wikipedia.org/wiki/Standard_conjectures_on_algebraic_cycles)
+   [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia: Tate](https://en.wikipedia.org/wiki/Tate_conjecture) · [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia: Standard](https://en.wikipedia.org/wiki/Standard_conjectures_on_algebraic_cycles)
 7. **Navier–Stokes global regularity** — do fluids blow up? (Related: interior finite-time singularity for 3D Euler — Hou–Chen's computer-assisted boundary blowup was a landmark.)
-   [W](https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_existence_and_smoothness) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Millenium/NavierStokes.lean) · [M: smooth solutions always exist? — 13%](https://manifold.markets/NcyRocks/does-a-smooth-navierstokes-solution) (Tao suspects blowup) · [M: Hutter's $10k bet on a claimed Lean proof — 99% he wins](https://manifold.markets/IsaacKing/will-marcus-hutter-win-his-10000-be)
+   [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_existence_and_smoothness) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Millenium/NavierStokes.lean) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> smooth solutions always exist? — 13%](https://manifold.markets/NcyRocks/does-a-smooth-navierstokes-solution?r=RXZhbkRhbmllbA) (Tao suspects blowup) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> Hutter's $10k bet on a claimed Lean proof — 99% he wins](https://manifold.markets/IsaacKing/will-marcus-hutter-win-his-10000-be?r=RXZhbkRhbmllbA)
 8. **Yang–Mills existence & mass gap** — construct a 4D QFT rigorously at all; the gap between physics and math in one problem.
-   [W](https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_existence_and_mass_gap) · [M: proven ever? — 62%](https://manifold.markets/NcyRocks/will-the-yangmills-existence-and-ma)
+   [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_existence_and_mass_gap) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> proven ever? — 62%](https://manifold.markets/NcyRocks/will-the-yangmills-existence-and-ma?r=RXZhbkRhbmllbA)
 9. **abc Conjecture** — would trivialize half of Diophantine number theory. Status: contested — Mochizuki's IUT claim is not accepted by the broader community (the Scholze–Stix objection stands).
-   [W](https://en.wikipedia.org/wiki/Abc_conjecture) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/ABC.lean) · [M: true? — 80%](https://manifold.markets/NcyRocks/is-the-abc-conjecture-correct) · [M: Mochizuki's proof has unfixable gaps — 96%](https://manifold.markets/figo/does-shinichi-mochizukis-proof-of-t)
+   [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Abc_conjecture) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/ABC.lean) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> true? — 80%](https://manifold.markets/NcyRocks/is-the-abc-conjecture-correct?r=RXZhbkRhbmllbA) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> Mochizuki's proof has unfixable gaps — 96%](https://manifold.markets/figo/does-shinichi-mochizukis-proof-of-t?r=RXZhbkRhbmllbA)
 10. **Hardy–Littlewood prime k-tuples (twin primes as flagship)** — post-Zhang/Maynard we have bounded gaps; the full conjecture is the real prize.
-    [W](https://en.wikipedia.org/wiki/Twin_prime) · [Lean: twin primes](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/TwinPrimes.lean), [k-tuples](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/HardyLittlewood.lean) · [M: infinitely many twin primes? — 95%](https://manifold.markets/NcyRocks/are-there-infinitely-many-twin-prim) · [M: proven before 2030 — 18%](https://manifold.markets/Grothenfla/will-the-twin-prime-conjecture-be-p)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Twin_prime) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean: twin primes](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/TwinPrimes.lean), [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> k-tuples](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/HardyLittlewood.lean) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> infinitely many twin primes? — 95%](https://manifold.markets/NcyRocks/are-there-infinitely-many-twin-prim?r=RXZhbkRhbmllbA) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> proven before 2030 — 18%](https://manifold.markets/Grothenfla/will-the-twin-prime-conjecture-be-p?r=RXZhbkRhbmllbA)
 11. **Smooth 4-dimensional Poincaré Conjecture** — the last Poincaré. Dimension 4 is the lawless frontier of topology.
-    [W](https://en.wikipedia.org/wiki/Generalized_Poincar%C3%A9_conjecture) · [M: true? — 53%](https://manifold.markets/bordism/is-the-generalized-poincare-conject) — a genuine coin-flip among topologists
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Generalized_Poincar%C3%A9_conjecture) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> true? — 53%](https://manifold.markets/bordism/is-the-generalized-poincare-conject?r=RXZhbkRhbmllbA) — a genuine coin-flip among topologists
 12. **Schanuel's Conjecture** — one statement that subsumes essentially all of transcendence theory (e+π irrational? Corollary.). The most underrated entry on this list.
-    [W](https://en.wikipedia.org/wiki/Schanuel%27s_conjecture) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/Schanuel.lean) · [M: true? — 77%](https://manifold.markets/PlasmaBallin/is-schanuels-conjecture-true)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Schanuel%27s_conjecture) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/Schanuel.lean) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> true? — 77%](https://manifold.markets/PlasmaBallin/is-schanuels-conjecture-true?r=RXZhbkRhbmllbA)
 13. **Bombieri–Lang** — geometry governs rational points; the ultimate generalization of Faltings.
-    [W](https://en.wikipedia.org/wiki/Bombieri%E2%80%93Lang_conjecture)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Bombieri%E2%80%93Lang_conjecture)
 14. **Existence of one-way functions** — the foundation of all cryptography; Impagliazzo's five worlds made precise.
-    [W](https://en.wikipedia.org/wiki/One-way_function) · [M: exist? — 87%](https://manifold.markets/BoltonBailey/do-oneway-functions-exist) · [M: which computational universe do we live in?](https://manifold.markets/JavierPrieto/which-computational-universe-do-we)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/One-way_function) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> exist? — 87%](https://manifold.markets/BoltonBailey/do-oneway-functions-exist?r=RXZhbkRhbmllbA) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> which computational universe do we live in?](https://manifold.markets/JavierPrieto/which-computational-universe-do-we?r=RXZhbkRhbmllbA)
 15. **Fontaine–Mazur + Bloch–Kato/Beilinson conjectures** — which Galois representations come from geometry, and what L-values mean. The arithmetic engine room.
-    [W: Fontaine–Mazur](https://en.wikipedia.org/wiki/Fontaine%E2%80%93Mazur_conjecture) · [W: Beilinson](https://en.wikipedia.org/wiki/Beilinson_conjectures)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia: Fontaine–Mazur](https://en.wikipedia.org/wiki/Fontaine%E2%80%93Mazur_conjecture) · [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia: Beilinson](https://en.wikipedia.org/wiki/Beilinson_conjectures)
 16. **Borel & Novikov Conjectures** — rigidity of aspherical manifolds; where topology, geometry, and operator algebras (Baum–Connes) meet.
-    [W: Borel](https://en.wikipedia.org/wiki/Borel_conjecture) · [W: Novikov](https://en.wikipedia.org/wiki/Novikov_conjecture)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia: Borel](https://en.wikipedia.org/wiki/Borel_conjecture) · [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia: Novikov](https://en.wikipedia.org/wiki/Novikov_conjecture)
 17. **Hilbert's 16th problem (second part)** — a uniform bound H(n) on limit cycles of degree-n polynomial vector fields; not even known finite for n = 2. On Hilbert's list *and* Smale's list; the central open problem of dynamical systems. *(new)*
-    [W](https://en.wikipedia.org/wiki/Hilbert%27s_sixteenth_problem)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Hilbert%27s_sixteenth_problem)
 18. **Cosmic censorship (weak & strong)** — are naked singularities generic? Is determinism salvageable in GR? The organizing conjectures of mathematical relativity; strong censorship (C⁰ version) already dented by Dafermos–Luk. Kerr stability only recently settled for slow rotation. *(new)*
-    [W](https://en.wikipedia.org/wiki/Cosmic_censorship_hypothesis) · famously the subject of [Thorne–Hawking–Preskill bets](https://en.wikipedia.org/wiki/Thorne%E2%80%93Hawking%E2%80%93Preskill_bet)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Cosmic_censorship_hypothesis) · famously the subject of [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Thorne–Hawking–Preskill bets](https://en.wikipedia.org/wiki/Thorne%E2%80%93Hawking%E2%80%93Preskill_bet)
 
 ## B — Major open problems within their fields
 
 ### Number theory
 
 19. **Goldbach (binary)** — famous and genuinely important, but a proof likely refines circle-method tech rather than creating a new world. Ternary case: done (Helfgott).
-    [W](https://en.wikipedia.org/wiki/Goldbach%27s_conjecture) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/GoldbachConjecture.lean) · [M: true? — 92%](https://manifold.markets/NcyRocks/is-goldbachs-conjecture-correct) · [M: proved before 2040 — 44%](https://manifold.markets/Elspeth/will-goldbachs-conjecture-be-proved-ac8ca9f27148)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Goldbach%27s_conjecture) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/GoldbachConjecture.lean) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> true? — 92%](https://manifold.markets/NcyRocks/is-goldbachs-conjecture-correct?r=RXZhbkRhbmllbA) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> proved before 2040 — 44%](https://manifold.markets/Elspeth/will-goldbachs-conjecture-be-proved-ac8ca9f27148?r=RXZhbkRhbmllbA)
 20. **Lindelöf Hypothesis** — RH's understudy; even this is out of reach.
-    [W](https://en.wikipedia.org/wiki/Lindel%C3%B6f_hypothesis)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Lindel%C3%B6f_hypothesis)
 21. **Elliott–Halberstam** — primes in progressions beyond GRH; would give prime gaps ≤ 6 (Polymath8b).
-    [W](https://en.wikipedia.org/wiki/Elliott%E2%80%93Halberstam_conjecture) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/ElliottHalberstamConjecture.lean)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Elliott%E2%80%93Halberstam_conjecture) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/ElliottHalberstamConjecture.lean)
 22. **Chowla & Sarnak conjectures** — Möbius randomness; Tao's logarithmic results are the beachhead.
-    [W](https://en.wikipedia.org/wiki/Liouville_function)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Liouville_function)
 23. **Are elliptic curve ranks unbounded?** — heuristics now say bounded (!), reversing decades of folklore.
-    [W](https://en.wikipedia.org/wiki/Rank_of_an_elliptic_curve) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/EllipticCurveRank.lean)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Rank_of_an_elliptic_curve) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/EllipticCurveRank.lean)
 24. **Hilbert's 12th (explicit class field theory)** — real recent progress (Dasgupta–Kakde), still open.
-    [W](https://en.wikipedia.org/wiki/Hilbert%27s_twelfth_problem)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Hilbert%27s_twelfth_problem)
 25. **Hilbert's 10th over ℚ** — is there an algorithm for rational points? (Over ℤ: no — MRDP. Over ℚ: open; over some big rings recently resolved.)
-    [W](https://en.wikipedia.org/wiki/Hilbert%27s_tenth_problem)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Hilbert%27s_tenth_problem)
 26. **Inverse Galois Problem** — is every finite group a Galois group over ℚ?
-    [W](https://en.wikipedia.org/wiki/Inverse_Galois_problem) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/InverseGalois.lean)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Inverse_Galois_problem) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/InverseGalois.lean)
 27. **Artin's primitive root conjecture** — follows from GRH; unconditional = open.
-    [W](https://en.wikipedia.org/wiki/Artin%27s_conjecture_on_primitive_roots) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/ArtinPrimitiveRootsConjecture.lean)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Artin%27s_conjecture_on_primitive_roots) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/ArtinPrimitiveRootsConjecture.lean)
 28. **Lehmer's Mahler measure problem** — a spectral gap for algebraic numbers.
-    [W](https://en.wikipedia.org/wiki/Lehmer%27s_conjecture) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/LehmerMahlerMeasureProblem.lean)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Lehmer%27s_conjecture) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/LehmerMahlerMeasureProblem.lean)
 29. **Littlewood Conjecture (simultaneous approximation)** — exceptions have measure zero (Einsiedler–Katok–Lindenstrauss); full statement open.
-    [W](https://en.wikipedia.org/wiki/Littlewood_conjecture) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/LittlewoodConjecture.lean)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Littlewood_conjecture) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/LittlewoodConjecture.lean)
 30. **Zilber–Pink** — the unlikely-intersections master conjecture (André–Oort was its solved special case).
-    [W](https://en.wikipedia.org/wiki/Zilber%E2%80%93Pink_conjecture)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Zilber%E2%80%93Pink_conjecture)
 31. **Serre's uniformity question** — Galois images of elliptic curves over ℚ: is 37 the last exceptional prime?
-    [W](https://en.wikipedia.org/wiki/Galois_representation)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Galois_representation)
 32. **Vandiver / Leopoldt** — old, stubborn, structurally meaningful.
-    [W: Vandiver](https://en.wikipedia.org/wiki/Kummer%E2%80%93Vandiver_conjecture) · [W: Leopoldt](https://en.wikipedia.org/wiki/Leopoldt%27s_conjecture) · [Lean: Vandiver](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/KummerVandiver.lean)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia: Vandiver](https://en.wikipedia.org/wiki/Kummer%E2%80%93Vandiver_conjecture) · [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia: Leopoldt](https://en.wikipedia.org/wiki/Leopoldt%27s_conjecture) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean: Vandiver](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/KummerVandiver.lean)
 33. **Grothendieck's section conjecture** — anabelian geometry's central open question: rational points = sections of the fundamental exact sequence. *(new)*
-    [W](https://en.wikipedia.org/wiki/Section_conjecture)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Section_conjecture)
 34. **Selberg's 1/4 eigenvalue conjecture / Ramanujan–Petersson for Maass forms** — the archimedean edge of Langlands; everything in analytic number theory wants it. *(new)*
-    [W](https://en.wikipedia.org/wiki/Selberg%27s_1/4_conjecture)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Selberg%27s_1/4_conjecture)
 
 ### Geometry & topology
 
 35. **Slice-ribbon conjecture** — knot concordance's central mystery (the Conway knot episode was a warning shot).
-    [W](https://en.wikipedia.org/wiki/Slice-ribbon_conjecture)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Slice-ribbon_conjecture)
 36. **L-space conjecture** — the conjectural trinity (Floer homology / taut foliations / left-orderability) of 3-manifolds.
-    [W](https://arxiv.org/abs/1107.5016)
+    [<img src="https://arxiv.org/favicon.ico" width="14" height="14"> arXiv](https://arxiv.org/abs/1107.5016)
 37. **4D Schoenflies** — even more embarrassing than smooth Poincaré, arguably.
-    [W](https://en.wikipedia.org/wiki/Schoenflies_problem)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Schoenflies_problem)
 38. **Volume Conjecture** — quantum invariants see hyperbolic geometry.
-    [W](https://en.wikipedia.org/wiki/Volume_conjecture)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Volume_conjecture)
 39. **Cannon Conjecture** — group theory determines when a boundary is a sphere.
-    [W](https://en.wikipedia.org/wiki/Cannon%27s_conjecture)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Cannon%27s_conjecture)
 40. **Hopf conjectures** — positive curvature on S²×S²; sign of the Euler characteristic.
-    [W](https://en.wikipedia.org/wiki/Hopf_conjecture)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Hopf_conjecture)
 41. **Andrews–Curtis** — widely suspected false; a disproof would be spectacular.
-    [W](https://en.wikipedia.org/wiki/Andrews%E2%80%93Curtis_conjecture)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Andrews%E2%80%93Curtis_conjecture)
 42. **Whitehead asphericity** — 80+ years, elementary statement, nothing.
-    [W](https://en.wikipedia.org/wiki/Whitehead_conjecture)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Whitehead_conjecture)
 43. **SYZ conjecture & homological mirror symmetry** — *why* mirror symmetry works; proved in families of examples, open as a general principle. *(new)*
-    [W: SYZ](https://en.wikipedia.org/wiki/SYZ_conjecture) · [W: HMS](https://en.wikipedia.org/wiki/Homological_mirror_symmetry)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia: SYZ](https://en.wikipedia.org/wiki/SYZ_conjecture) · [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia: HMS](https://en.wikipedia.org/wiki/Homological_mirror_symmetry)
 
 ### Analysis & dynamics
 
 44. **Restriction Conjecture** — the summit of harmonic analysis; Kakeya was its foothill (3D Kakeya fell in 2025 — Wang–Zahl; higher dimensions and restriction itself open).
-    [W](https://en.wikipedia.org/wiki/Restriction_conjecture)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Restriction_conjecture)
 45. **Falconer distance conjecture** — fractal geometry's flagship.
-    [W](https://en.wikipedia.org/wiki/Falconer%27s_conjecture)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Falconer%27s_conjecture)
 46. **Invariant subspace problem (Hilbert space)** — Enflo's 2023 claim remains unaccepted; cursed energy.
-    [W](https://en.wikipedia.org/wiki/Invariant_subspace_problem) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/InvariantSubspaceProblem.lean)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Invariant_subspace_problem) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/InvariantSubspaceProblem.lean)
 47. **Crouzeix's conjecture** — the constant is 2, everyone believes it, nobody can do it.
-    [W](https://en.wikipedia.org/wiki/Crouzeix%27s_conjecture)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Crouzeix%27s_conjecture)
 48. **Fuglede-type spectral questions in low dimensions** — false in general (Tao), alive in ℝ², ℝ³ (the conjecture *was* fully proved for convex domains).
-    [W](https://en.wikipedia.org/wiki/Fuglede%27s_conjecture) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/Fuglede.lean)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Fuglede%27s_conjecture) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/Fuglede.lean)
 49. **Furstenberg's ×2, ×3 measure conjecture** — rigidity of arithmetic dynamics; Rudolph's theorem is the partial result everyone wants to remove the entropy hypothesis from.
-    [W](https://en.wikipedia.org/wiki/Hillel_Furstenberg)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Hillel_Furstenberg)
 50. **Soliton resolution conjecture** — every reasonable dispersive evolution decomposes into solitons + radiation; proved for energy-critical waves in special cases (Duyckaerts–Kenig–Merle), wide open in general. *(new)*
-    [W](https://en.wikipedia.org/wiki/Soliton)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Soliton)
 51. **Quantum unique ergodicity** — arithmetic case is a Fields-medal theorem (Lindenstrauss); general negatively-curved manifolds open. *(new)*
-    [W](https://en.wikipedia.org/wiki/Quantum_ergodicity)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Quantum_ergodicity)
 
 ### Algebra
 
 52. **Kaplansky zero-divisor & idempotent conjectures** — especially spicy since the unit conjecture was refuted (Gardam, 2021).
-    [W](https://en.wikipedia.org/wiki/Kaplansky%27s_conjectures) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/Kaplansky.lean)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Kaplansky%27s_conjectures) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/Kaplansky.lean)
 53. **Köthe Conjecture** — ring theory's oldest open wound (1930).
-    [W](https://en.wikipedia.org/wiki/K%C3%B6the_conjecture) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/Koethe.lean)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/K%C3%B6the_conjecture) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/Koethe.lean)
 54. **Alperin weight & Broué's abelian defect conjectures** — modular representation theory's core (McKay itself fell in '24, Brauer's height zero in '24 too — the local-global program is on a run).
-    [W](https://en.wikipedia.org/wiki/J._L._Alperin) · [W: Broué](https://en.wikipedia.org/wiki/Michel_Brou%C3%A9)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/J._L._Alperin) · [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia: Broué](https://en.wikipedia.org/wiki/Michel_Brou%C3%A9)
 55. **Brauer's remaining problems on blocks and characters** — the 1963 list that keeps giving.
-    [W](https://en.wikipedia.org/wiki/Modular_representation_theory)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Modular_representation_theory)
 56. **Is Thompson's group F amenable?** — the most contested question in geometric group theory; multiple contradictory claimed proofs *in both directions* have died. *(new)*
-    [W](https://en.wikipedia.org/wiki/Thompson_groups)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Thompson_groups)
 
 ### Combinatorics & graphs
 
 57. **Hadwiger's Conjecture (graph minors vs. coloring)** — the deepest thing in graph theory.
-    [W](https://en.wikipedia.org/wiki/Hadwiger_conjecture_%28graph_theory%29) · [M: true? — 58%](https://manifold.markets/Pazzaz/is-hadwigers-conjecture-true)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Hadwiger_conjecture_%28graph_theory%29) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> true? — 58%](https://manifold.markets/Pazzaz/is-hadwigers-conjecture-true?r=RXZhbkRhbmllbA)
 58. **Erdős's conjecture on APs in sets of divergent reciprocal sum** — Bloom–Sisask did density; full conjecture (primes ⇒ Green–Tao as corollary) open.
-    [W](https://en.wikipedia.org/wiki/Erd%C5%91s_conjecture_on_arithmetic_progressions) · [M: true? — 88%](https://manifold.markets/wylderai/is-the-erdos-conjecture-on-arithmet) · [M: LLM finds counterexample by 7/2027 — 8%](https://manifold.markets/Bayesian/will-an-llm-find-a-counterexample-t)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Erd%C5%91s_conjecture_on_arithmetic_progressions) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> true? — 88%](https://manifold.markets/wylderai/is-the-erdos-conjecture-on-arithmet?r=RXZhbkRhbmllbA) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> LLM finds counterexample by 7/2027 — 8%](https://manifold.markets/Bayesian/will-an-llm-find-a-counterexample-t?r=RXZhbkRhbmllbA)
 59. **Diagonal Ramsey asymptotics** — the exponential barrier finally cracked (Campos–Griffiths–Morris–Sahasrabudhe 2023); true growth rate still open.
-    [W](https://en.wikipedia.org/wiki/Ramsey%27s_theorem)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Ramsey%27s_theorem)
 60. **Sunflower Conjecture** — big progress (Alweiss–Lovett–Wu–Zhang 2019), gap remains.
-    [W](https://en.wikipedia.org/wiki/Sunflower_%28mathematics%29) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/ErdosRadoSunflowerConjecture.lean) · [M: true? — 73%](https://manifold.markets/PlasmaBallin/is-the-sunflower-conjecture-true)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Sunflower_%28mathematics%29) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/ErdosRadoSunflowerConjecture.lean) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> true? — 73%](https://manifold.markets/PlasmaBallin/is-the-sunflower-conjecture-true?r=RXZhbkRhbmllbA)
 61. **Reconstruction Conjecture** — can you rebuild a graph from its vertex-deleted deck?
-    [W](https://en.wikipedia.org/wiki/Reconstruction_conjecture)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Reconstruction_conjecture)
 62. **Cycle double cover / Berge–Fulkerson / Tutte's flow conjectures** — the snark-infested waters.
-    [W: CDC](https://en.wikipedia.org/wiki/Cycle_double_cover) · [W: flows](https://en.wikipedia.org/wiki/Nowhere-zero_flow)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia: CDC](https://en.wikipedia.org/wiki/Cycle_double_cover) · [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia: flows](https://en.wikipedia.org/wiki/Nowhere-zero_flow)
 63. **Hadwiger–Nelson (chromatic number of the plane)** — now 5 ≤ χ ≤ 7 thanks to a hobbyist (de Grey, 2018).
-    [W](https://en.wikipedia.org/wiki/Hadwiger%E2%80%93Nelson_problem) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/HadwigerNelson.lean) · [M: what is χ?](https://manifold.markets/BoltonBailey/what-is-the-solution-to-the-hadwige)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Hadwiger%E2%80%93Nelson_problem) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/HadwigerNelson.lean) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> what is χ?](https://manifold.markets/BoltonBailey/what-is-the-solution-to-the-hadwige?r=RXZhbkRhbmllbA)
 64. **Inscribed square (Toeplitz)** — every Jordan curve? Smooth case done; continuous case open since 1911.
-    [W](https://en.wikipedia.org/wiki/Inscribed_square_problem) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/InscribedSquare.lean) · [M: true? — 80%](https://manifold.markets/PlasmaBallin/is-toeplitzs-conjecture-inscribed-s)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Inscribed_square_problem) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/InscribedSquare.lean) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> true? — 80%](https://manifold.markets/PlasmaBallin/is-toeplitzs-conjecture-inscribed-s?r=RXZhbkRhbmllbA)
 65. **Sphere packing / kissing numbers in general dimension** — 8 and 24 fell to Viazovska; everything else is wilderness (and dim 10+ lower bounds just moved for the first time in decades).
-    [W](https://en.wikipedia.org/wiki/Sphere_packing) · [W: kissing](https://en.wikipedia.org/wiki/Kissing_number)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Sphere_packing) · [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia: kissing](https://en.wikipedia.org/wiki/Kissing_number)
 66. **Caccetta–Häggkvist** — digraph girth; simple statement, no traction.
-    [W](https://arxiv.org/abs/math/0605646)
+    [<img src="https://arxiv.org/favicon.ico" width="14" height="14"> arXiv](https://arxiv.org/abs/math/0605646)
 67. **Erdős–Hajnal conjecture** — forbidding any one induced subgraph forces polynomial-size cliques or independent sets; structural graph theory's north star. *(new)*
-    [W](https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Hajnal_conjecture)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Hajnal_conjecture)
 68. **Sidorenko's conjecture** — bipartite graphs are "quasirandomness-minimal"; deceptively innocent, tied to Gowers norms and graph limits. *(new)*
-    [W](https://en.wikipedia.org/wiki/Sidorenko%27s_conjecture) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/SidorenkoConjecture.lean)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Sidorenko%27s_conjecture) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/SidorenkoConjecture.lean)
 69. **Hadamard matrix conjecture** — a Hadamard matrix in every order 4k; smallest open order 668. *(new)*
-    [W](https://en.wikipedia.org/wiki/Hadamard_matrix) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/Hadamard.lean)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Hadamard_matrix) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/Hadamard.lean)
 70. **Erdős–Turán conjecture on additive bases** — must representation counts of an additive basis be unbounded? *(new)*
-    [W](https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Tur%C3%A1n_conjecture_on_additive_bases)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Tur%C3%A1n_conjecture_on_additive_bases)
 
 ### Logic & foundations
 
 71. **The Continuum Problem, post-Cohen** — independence didn't kill it: Woodin's Ultimate-L vs. the forcing-axiom camp (which says 2^ℵ⁰ = ℵ₂!) make it a live research program about which axioms are *true*.
-    [W](https://en.wikipedia.org/wiki/Continuum_hypothesis) · [M: is CH true? — 61%](https://manifold.markets/PlasmaBallin/is-the-continuum-hypothesis-true) (a market on a statement independent of ZFC is itself a philosophy experiment)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Continuum_hypothesis) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> is CH true? — 61%](https://manifold.markets/PlasmaBallin/is-the-continuum-hypothesis-true?r=RXZhbkRhbmllbA) (a market on a statement independent of ZFC is itself a philosophy experiment)
 72. **Vaught's Conjecture** — model theory's white whale.
-    [W](https://en.wikipedia.org/wiki/Vaught_conjecture) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/VaughtConjecture.lean)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Vaught_conjecture) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/VaughtConjecture.lean)
 
 ### Theoretical computer science
 
 73. **Unique Games Conjecture** — half-proved (2-to-2 games); would settle optimal inapproximability across the board.
-    [W](https://en.wikipedia.org/wiki/Unique_games_conjecture) · [M: true? — 65%](https://manifold.markets/Floffinou/is-the-unique-games-conjecture-true)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Unique_games_conjecture) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> true? — 65%](https://manifold.markets/Floffinou/is-the-unique-games-conjecture-true?r=RXZhbkRhbmllbA)
 74. **Matrix multiplication exponent ω = 2?** — inching down for 50 years; current record ω < 2.3714.
-    [W](https://en.wikipedia.org/wiki/Computational_complexity_of_matrix_multiplication) · [M: beat 2.371552 before 2035 — 99%](https://manifold.markets/Widden/will-a-matmul-algorithm-better-than)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Computational_complexity_of_matrix_multiplication) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> beat 2.371552 before 2035 — 99%](https://manifold.markets/Widden/will-a-matmul-algorithm-better-than?r=RXZhbkRhbmllbA)
 75. **P = BPP (derandomization)** — everyone believes it; a proof requires circuit lower bounds we can't touch.
-    [W](https://en.wikipedia.org/wiki/BPP_%28complexity%29)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/BPP_%28complexity%29)
 76. **Graph isomorphism in P?** — Babai got quasipolynomial; the last step is stuck.
-    [W](https://en.wikipedia.org/wiki/Graph_isomorphism_problem) · [M: in P? — 51%](https://manifold.markets/BoltonBailey/is-graph-isomorphism-in-p) · [M: NP-complete? — 7%](https://manifold.markets/BoltonBailey/is-graph-isomorphism-npcomplete)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Graph_isomorphism_problem) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> in P? — 51%](https://manifold.markets/BoltonBailey/is-graph-isomorphism-in-p?r=RXZhbkRhbmllbA) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> NP-complete? — 7%](https://manifold.markets/BoltonBailey/is-graph-isomorphism-npcomplete?r=RXZhbkRhbmllbA)
 77. **Log-rank conjecture** — communication complexity's oldest embarrassment.
-    [W](https://en.wikipedia.org/wiki/Log-rank_conjecture)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Log-rank_conjecture)
 78. **VP vs VNP (Valiant's hypothesis)** — permanent vs. determinant; the algebraic P vs NP, plausibly easier, still untouched. *(new)*
-    [W](https://en.wikipedia.org/wiki/Computing_the_permanent)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Computing_the_permanent)
 79. **Quantum PCP conjecture** — hardness of approximating ground-state energy; the NLTS breakthrough (2022) was the first real step. *(new)*
-    [W](https://en.wikipedia.org/wiki/Quantum_PCP_conjecture)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Quantum_PCP_conjecture)
 
 ### Probability, mathematical physics & high-dimensional geometry
 
 80. **3D Ising / percolation critical exponents & conformal invariance** — 2D is a triumph (SLE); 3D is a desert with physics predictions (bootstrap!) and no proofs.
-    [W](https://en.wikipedia.org/wiki/Ising_critical_exponents)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Ising_critical_exponents)
 81. **KPZ universality in full generality** — proved for exactly solvable models only.
-    [W](https://en.wikipedia.org/wiki/Kardar%E2%80%93Parisi%E2%80%93Zhang_equation)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Kardar%E2%80%93Parisi%E2%80%93Zhang_equation)
 82. **Ergodic/quantitative theory of turbulence** — beyond even Navier–Stokes regularity. (Meanwhile Hilbert's *6th* — deriving fluid equations from Newtonian particles — took a giant leap with Deng–Hani–Ma 2025.)
-    [W](https://en.wikipedia.org/wiki/Turbulence)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Turbulence)
 83. **Kannan–Lovász–Simonovits (KLS) conjecture** — one spectral constant governing isoperimetry of all log-concave measures; Yuansi Chen's 2020 near-resolution electrified the field, the constant-factor question remains. *(new)*
-    [W](https://arxiv.org/abs/1807.03465)
+    [<img src="https://arxiv.org/favicon.ico" width="14" height="14"> arXiv](https://arxiv.org/abs/1807.03465)
 84. **Mahler volume conjecture** — cubes minimize the volume product; proved in ℝ³ (2020), open in general. Symplectic connection: it followed from Viterbo's conjecture — which was just refuted, so the route died but the conjecture didn't. *(new)*
-    [W](https://en.wikipedia.org/wiki/Mahler_volume)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Mahler_volume)
 
 ## C — Famous, but narrow or technique-isolated
 
 85. **Odd perfect numbers** — open for ~2300 years, the oldest problem in mathematics. A proof would be a fireworks show, not an earthquake.
-    [W](https://en.wikipedia.org/wiki/Perfect_number) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/PerfectNumbers.lean) · [M: exist? — 9%](https://manifold.markets/NcyRocks/are-there-any-odd-perfect-numbers)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Perfect_number) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/PerfectNumbers.lean) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> exist? — 9%](https://manifold.markets/NcyRocks/are-there-any-odd-perfect-numbers?r=RXZhbkRhbmllbA)
 86. **Infinitely many Mersenne primes (and: finitely many Fermat primes?)** — no tools exist. None.
-    [W](https://en.wikipedia.org/wiki/Mersenne_prime) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/Mersenne.lean) · [M: infinitely many? — 89%](https://manifold.markets/PlasmaBallin/are-there-infinitely-many-mersenne) · [M: new Mersenne prime found in 2026 — 16%](https://manifold.markets/Neupherium/will-a-new-mersenne-prime-be-found)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Mersenne_prime) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/Mersenne.lean) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> infinitely many? — 89%](https://manifold.markets/PlasmaBallin/are-there-infinitely-many-mersenne?r=RXZhbkRhbmllbA) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> new Mersenne prime found in 2026 — 16%](https://manifold.markets/Neupherium/will-a-new-mersenne-prime-be-found?r=RXZhbkRhbmllbA)
 87. **Normality of π, e, √2** — we cannot prove a single natural constant is normal. Humbling, isolated.
-    [W](https://en.wikipedia.org/wiki/Normal_number) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/NormalityOfPi.lean)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Normal_number) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/NormalityOfPi.lean)
 88. **Irrationality of γ (Euler–Mascheroni) and ζ(5)** — ζ(3) took Apéry magic; the magic didn't generalize.
-    [W](https://en.wikipedia.org/wiki/Euler%27s_constant) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/RiemannZetaValues.lean)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Euler%27s_constant) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/RiemannZetaValues.lean)
 89. **Lehmer's totient problem** — does φ(n) | n−1 force primality?
-    [W](https://en.wikipedia.org/wiki/Lehmer%27s_totient_problem) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/LehmerTotient.lean) · [M: composite solution exists? — 30%](https://manifold.markets/PlasmaBallin/lehmers-totient-problem-is-there-a)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Lehmer%27s_totient_problem) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/LehmerTotient.lean) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> composite solution exists? — 30%](https://manifold.markets/PlasmaBallin/lehmers-totient-problem-is-there-a?r=RXZhbkRhbmllbA)
 90. **Ramsey number R(5,5)** — known to be in [43, 46]; finite computation, cosmically infeasible. ("Aliens demand R(6,6): attack." — Erdős)
-    [W](https://en.wikipedia.org/wiki/Ramsey%27s_theorem) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/RamseyNumbers.lean) · [M: known before 2040 — 71%](https://manifold.markets/IsaacKing/will-the-5-5-ramsey-number-by-known) · [M: its value?](https://manifold.markets/lisamarsh/what-is-the-value-of-the-ramsey-num)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Ramsey%27s_theorem) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/RamseyNumbers.lean) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> known before 2040 — 71%](https://manifold.markets/IsaacKing/will-the-5-5-ramsey-number-by-known?r=RXZhbkRhbmllbA) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> its value?](https://manifold.markets/lisamarsh/what-is-the-value-of-the-ramsey-num?r=RXZhbkRhbmllbA)
 91. **Union-closed sets (Frankl)** — Gilmer's 2022 breakthrough got a constant (now ≈ 0.38); the ½ remains.
-    [W](https://en.wikipedia.org/wiki/Union-closed_sets_conjecture) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/UnionClosed.lean) · [M: true? — 78%](https://manifold.markets/PlasmaBallin/is-the-unionclosed-sets-conjecture)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Union-closed_sets_conjecture) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/UnionClosed.lean) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> true? — 78%](https://manifold.markets/PlasmaBallin/is-the-unionclosed-sets-conjecture?r=RXZhbkRhbmllbA)
 92. **Second neighborhood conjecture, graceful trees, lonely runner** — beloved, bounded blast radius.
-    [W: 2nd nbhd](https://en.wikipedia.org/wiki/Second_neighborhood_problem) · [W: graceful](https://en.wikipedia.org/wiki/Graceful_labeling) · [W: lonely runner](https://en.wikipedia.org/wiki/Lonely_runner_conjecture) · [Lean: graceful](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/GracefulLabeling.lean), [lonely runner](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/LonelyRunnerConjecture.lean)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia: 2nd nbhd](https://en.wikipedia.org/wiki/Second_neighborhood_problem) · [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia: graceful](https://en.wikipedia.org/wiki/Graceful_labeling) · [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia: lonely runner](https://en.wikipedia.org/wiki/Lonely_runner_conjecture) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean: graceful](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/GracefulLabeling.lean), [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> lonely runner](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/LonelyRunnerConjecture.lean)
 93. **Zaremba's conjecture** — continued fractions with bounded partial quotients; Bourgain–Kontorovich got density one.
-    [W](https://en.wikipedia.org/wiki/Zaremba%27s_conjecture)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Zaremba%27s_conjecture)
 94. **Erdős–Straus (4/n = 1/x + 1/y + 1/z)** — the classic "looks like homework, isn't."
-    [W](https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Straus_conjecture)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Straus_conjecture)
 95. **Legendre's conjecture & Landau's n²+1 problem** — the two Landau problems with zero movement since 1912 (his other two are Goldbach and twin primes, above). *(new)*
-    [W: Legendre](https://en.wikipedia.org/wiki/Legendre%27s_conjecture) · [W: Landau's problems](https://en.wikipedia.org/wiki/Landau%27s_problems) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/LegendreConjecture.lean) · [M: which Landau problem falls next?](https://manifold.markets/PlasmaBallin/which-of-landaus-problems-will-be-s)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia: Legendre](https://en.wikipedia.org/wiki/Legendre%27s_conjecture) · [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia: Landau's problems](https://en.wikipedia.org/wiki/Landau%27s_problems) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/LegendreConjecture.lean) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> which Landau problem falls next?](https://manifold.markets/PlasmaBallin/which-of-landaus-problems-will-be-s?r=RXZhbkRhbmllbA)
 96. **Beal conjecture** — Fermat with mixed exponents and a $1M bounty from a Texas banker. *(new)*
-    [W](https://en.wikipedia.org/wiki/Beal_conjecture) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/BealConjecture.lean) · [M: true? — 59%](https://manifold.markets/PlasmaBallin/is-beals-conjecture-true)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Beal_conjecture) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/BealConjecture.lean) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> true? — 59%](https://manifold.markets/PlasmaBallin/is-beals-conjecture-true?r=RXZhbkRhbmllbA)
 97. **Sendov's conjecture** — zeros and critical points of polynomials in a disk; Tao settled it for sufficiently high degree, the rest is open. *(new)*
-    [W](https://en.wikipedia.org/wiki/Sendov%27s_conjecture) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/Sendov.lean)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Sendov%27s_conjecture) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/Sendov.lean)
 98. **Singmaster's conjecture** — does any number appear more than 8 times in Pascal's triangle? *(new)*
-    [W](https://en.wikipedia.org/wiki/Singmaster%27s_conjecture) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/Singmaster.lean)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Singmaster%27s_conjecture) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/Singmaster.lean)
 
 ## ☠️ Cursed tier (fame ≫ tractability; possibly technique-free)
 
 99. **Collatz** — "Mathematics is not ready for such problems" (Erdős). Tao's almost-everywhere result is the best in 80 years and it's still nowhere near. Maximal fame, unclear payoff, no attack surface. Its own tier.
-    [W](https://en.wikipedia.org/wiki/Collatz_conjecture) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/CollatzConjecture.lean) · [M: true? — 82%](https://manifold.markets/NcyRocks/is-the-collatz-conjecture-true) · [M: resolved before 2030 — 14%](https://manifold.markets/AlunStokes/will-the-collatz-conjecture-be-reso)
+    [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/CollatzConjecture.lean) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> true? — 82%](https://manifold.markets/NcyRocks/is-the-collatz-conjecture-true?r=RXZhbkRhbmllbA) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> resolved before 2030 — 14%](https://manifold.markets/AlunStokes/will-the-collatz-conjecture-be-reso?r=RXZhbkRhbmllbA)
 100. **3×3 magic square of squares** — recreational statement, absorbs infinite amateur-hours (a.k.a. the Parker Square problem).
-     [W](https://en.wikipedia.org/wiki/Magic_square) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/MagicSquares.lean) · [M: which year is one found?](https://manifold.markets/strutheo/in-what-year-will-we-discover-a-3x3) · [M: proven impossible by 2025 — resolved NO](https://manifold.markets/Conflux/will-a-3x3-magic-square-of-distinct)
+     [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Magic_square) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/MagicSquares.lean) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> which year is one found?](https://manifold.markets/strutheo/in-what-year-will-we-discover-a-3x3?r=RXZhbkRhbmllbA) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> proven impossible by 2025 — resolved NO](https://manifold.markets/Conflux/will-a-3x3-magic-square-of-distinct?r=RXZhbkRhbmllbA)
 101. **Perfect cuboid** — same energy, 300 years running.
-     [W](https://en.wikipedia.org/wiki/Euler_brick) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/EulerBrick.lean)
+     [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Euler_brick) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/EulerBrick.lean)
 102. **Brocard's problem (n! + 1 = m²)** — three known solutions, no theory.
-     [W](https://en.wikipedia.org/wiki/Brocard%27s_problem) · [Lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/BrocardProblem.lean)
+     [<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Brocard%27s_problem) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/BrocardProblem.lean)
 
 ## 🪦 Recently fell (calibration for the whole list)
 
 For a sense of what "solvable" looks like lately:
 
-- **Jacobian conjecture** — *refuted* for n ≥ 3 by a 216-character map ℂ³→ℂ³ ([Alpöge](https://en.wikipedia.org/wiki/Jacobian_conjecture) + Claude, July 2026; preprint pending review). The great graveyard of false *proofs* ends up dead by *counterexample*. The n = 2 case is still open — [M: true in 2D? — 39%](https://manifold.markets/wingspan/is-the-jacobian-conjecture-true-in) · [M: general, pre-refutation market — 1%](https://manifold.markets/IsaacKing/is-the-jacobian-conjecture-true) · [M: when verified in Lean?](https://manifold.markets/kimem/when-will-the-jacobian-challenge-be) · [Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/JacobianConjecture.lean). Bonus casualty: via Tsuchimoto / Belov-Kanel–Kontsevich equivalences, trouble propagates to the Dixmier conjecture for Weyl algebras.
+- **Jacobian conjecture** — *refuted* for n ≥ 3 by a 216-character map ℂ³→ℂ³ ([<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Alpöge](https://en.wikipedia.org/wiki/Jacobian_conjecture) + Claude, July 2026; preprint pending review). The great graveyard of false *proofs* ends up dead by *counterexample*. The n = 2 case is still open — [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> true in 2D? — 39%](https://manifold.markets/wingspan/is-the-jacobian-conjecture-true-in?r=RXZhbkRhbmllbA) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> general, pre-refutation market — 1%](https://manifold.markets/IsaacKing/is-the-jacobian-conjecture-true?r=RXZhbkRhbmllbA) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> when verified in Lean?](https://manifold.markets/kimem/when-will-the-jacobian-challenge-be?r=RXZhbkRhbmllbA) · [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/JacobianConjecture.lean). Bonus casualty: via Tsuchimoto / Belov-Kanel–Kontsevich equivalences, trouble propagates to the Dixmier conjecture for Weyl algebras.
 - **Bourgain's slicing problem / hyperplane conjecture** — Klartag–Lehec '25, pending review
-- **Moving sofa problem** — Baek '24, pending review ([M: Kakeya-style clean, wonderful](https://en.wikipedia.org/wiki/Moving_sofa_problem)) — [Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/MovingSofa.lean)
-- **3D Kakeya conjecture** — Wang–Zahl '25 ([W](https://en.wikipedia.org/wiki/Kakeya_set) · [M: full conjecture true? — 85%](https://manifold.markets/PlasmaBallin/is-the-kakeya-conjecture-true))
-- **Kervaire invariant one, dimension 126** — Lin–Wang–Xu '24; the last dimension, settled *positively* ([W](https://en.wikipedia.org/wiki/Kervaire_invariant))
-- **McKay conjecture** — Cabanes–Späth '24 ([W](https://en.wikipedia.org/wiki/McKay_conjecture)); Brauer's height zero conjecture also fell '24
-- **Viterbo's conjecture** — *refuted*, Haim-Kislev–Ostrover '24 ([arXiv](https://arxiv.org/abs/2405.16513))
-- **Consistency of Quine's NF** — Holmes' proof verified in Lean, '24 ([W](https://en.wikipedia.org/wiki/New_Foundations)) — a preview of this list's "Lean?" column becoming load-bearing
-- **Marton's conjecture / Polynomial Freiman–Ruzsa** — Gowers–Green–Manners–Tao '23, [formalized in Lean within weeks](https://github.com/teorth/pfr)
-- **Aperiodic monotile ("the hat")** — Smith–Myers–Kaplan–Goodman-Strauss '23 ([W](https://en.wikipedia.org/wiki/Einstein_problem))
-- **Telescope conjecture** — *refuted*, Burklund–Hahn–Levy–Schlank '23; the last of Ravenel's conjectures ([W](https://en.wikipedia.org/wiki/Ravenel_conjectures))
-- **Ryser–Brualdi–Stein (large n)** — Montgomery '23 ([W](https://en.wikipedia.org/wiki/Latin_square))
+- **Moving sofa problem** — Baek '24, pending review ([<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Moving_sofa_problem)) — [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/MovingSofa.lean)
+- **3D Kakeya conjecture** — Wang–Zahl '25 ([<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Kakeya_set) · [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> full conjecture true? — 85%](https://manifold.markets/PlasmaBallin/is-the-kakeya-conjecture-true?r=RXZhbkRhbmllbA))
+- **Kervaire invariant one, dimension 126** — Lin–Wang–Xu '24; the last dimension, settled *positively* ([<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Kervaire_invariant))
+- **McKay conjecture** — Cabanes–Späth '24 ([<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/McKay_conjecture)); Brauer's height zero conjecture also fell '24
+- **Viterbo's conjecture** — *refuted*, Haim-Kislev–Ostrover '24 ([<img src="https://arxiv.org/favicon.ico" width="14" height="14"> arXiv](https://arxiv.org/abs/2405.16513))
+- **Consistency of Quine's NF** — Holmes' proof verified in Lean, '24 ([<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/New_Foundations)) — a preview of this list's "Lean?" column becoming load-bearing
+- **Marton's conjecture / Polynomial Freiman–Ruzsa** — Gowers–Green–Manners–Tao '23, [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> formalized in Lean within weeks](https://github.com/teorth/pfr)
+- **Aperiodic monotile ("the hat")** — Smith–Myers–Kaplan–Goodman-Strauss '23 ([<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Einstein_problem))
+- **Telescope conjecture** — *refuted*, Burklund–Hahn–Levy–Schlank '23; the last of Ravenel's conjectures ([<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Ravenel_conjectures))
+- **Ryser–Brualdi–Stein (large n)** — Montgomery '23 ([<img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" width="14" height="14"> Wikipedia](https://en.wikipedia.org/wiki/Latin_square))
 - **Erdős primitive set conjecture** — Lichtman '22
 - **Erdős–Faber–Lovász** — Kang–Kelly–Kühn–Methuku–Osthus '21 · **André–Oort** — Pila–Shankar–Tsimerman '21 · **Kaplansky unit conjecture** — *refuted*, Gardam '21
 - **Duffin–Schaeffer** — Koukoulopoulos–Maynard '19 · **Sensitivity conjecture** — Huang '19, two pages! · **Connes embedding** — *refuted* via MIP\*=RE '20
@@ -294,8 +294,8 @@ Refutation rate in that sample is worth staring at: Connes embedding, Kaplansky 
 
 ## Meta
 
-- **Forecasting coverage is patchy.** Manifold has real markets on ~⅓ of this list (linked above). Metaculus has a cluster around the Millennium problems and AI-does-math ([search](https://www.metaculus.com/questions/?search=millennium%20prize)). The meta-markets are arguably the most interesting: [AI solves a Millennium problem before 2030 — 52%](https://manifold.markets/AlanTuring/will-artificial-intelligence-solve), [≥4 of 7 Millennium problems solved by 2040 — 66%](https://manifold.markets/_deleted_/will-at-least-4-of-the-7-millennium).
-- **Lean coverage is better than you'd guess.** [formal-conjectures](https://github.com/google-deepmind/formal-conjectures) has formal *statements* for 30+ items on this list (all linked inline), plus ~500 Erdős problems. If you want to add one that's missing, that repo takes PRs too.
+- **Forecasting coverage is patchy.** Manifold has real markets on ~⅓ of this list (linked above). Metaculus has a cluster around the Millennium problems and AI-does-math ([<img src="https://www.metaculus.com/favicon.ico" width="14" height="14"> search](https://www.metaculus.com/questions/?search=millennium%20prize)). The meta-markets are arguably the most interesting: [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> AI solves a Millennium problem before 2030 — 52%](https://manifold.markets/AlanTuring/will-artificial-intelligence-solve?r=RXZhbkRhbmllbA), [<img src="https://manifold.markets/favicon.ico" width="14" height="14"> ≥4 of 7 Millennium problems solved by 2040 — 66%](https://manifold.markets/_deleted_/will-at-least-4-of-the-7-millennium?r=RXZhbkRhbmllbA).
+- **Lean coverage is better than you'd guess.** [<img src="https://leanprover-community.github.io/img/favicon.ico" width="14" height="14"> formal-conjectures](https://github.com/google-deepmind/formal-conjectures) has formal *statements* for 30+ items on this list (all linked inline), plus ~500 Erdős problems. If you want to add one that's missing, that repo takes PRs too.
 - Probabilities are snapshots (July 2026). If you're reading this later, click through.
 - Generated graphic: `python3 make_tier_svg.py` → `tier-list.svg`.
 
