@@ -108,8 +108,12 @@
 <text x="323.5" y="414.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">3D Ising</text>
 <rect x="369" y="398" width="40" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
 <text x="389.0" y="414.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">KPZ</text>
-<rect x="417" y="398" width="92" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="463.0" y="414.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">+37 more ↓</text>
+<rect x="417" y="398" width="199" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="516.5" y="414.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Free group factors ('26 +)</text>
+<rect x="624" y="398" width="98" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="673.0" y="414.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">MLC ('26 +)</text>
+<rect x="730" y="398" width="92" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="776.0" y="414.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">+44 more ↓</text>
 <rect x="0" y="444" width="150" height="90" fill="#7fff7f"/>
 <rect x="152" y="444" width="1128" height="90" fill="#1e1e22"/>
 <text x="75.0" y="487.0" fill="#18181b" font-size="30" font-weight="bold" text-anchor="middle" dominant-baseline="middle">C</text>
