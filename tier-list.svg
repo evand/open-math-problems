@@ -152,23 +152,25 @@
 <rect x="152" y="606" width="1128" height="90" fill="#1e1e22"/>
 <text x="75.0" y="649.0" fill="#18181b" font-size="30" font-weight="bold" text-anchor="middle" dominant-baseline="middle">🪦</text>
 <text x="75.0" y="671.0" fill="#18181b" font-size="10.5" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Recently fell</text>
-<rect x="162" y="616" width="209" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="266.5" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Jacobian conjecture ('26 ⭐)</text>
-<rect x="379" y="616" width="123" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="440.5" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">3D Kakeya ('25)</text>
-<rect x="510" y="616" width="167" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="593.5" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Slicing problem ('25)</text>
-<rect x="685" y="616" width="144" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="757.0" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Kervaire 126 ('24)</text>
-<rect x="837" y="616" width="140" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="907.0" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Moving sofa ('24)</text>
-<rect x="985" y="616" width="98" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="1034.0" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">McKay ('24)</text>
-<rect x="1091" y="616" width="82" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="1132.0" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">PFR ('23)</text>
-<rect x="162" y="654" width="188" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="256.0" y="670.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Aperiodic monotile ('23)</text>
-<rect x="358" y="654" width="71" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="393.5" y="670.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">+more ↓</text>
+<rect x="162" y="616" width="181" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="252.5" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Astra batch ×10 ('26 🤖)</text>
+<rect x="351" y="616" width="209" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="455.5" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Jacobian conjecture ('26 ⭐)</text>
+<rect x="568" y="616" width="123" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="629.5" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">3D Kakeya ('25)</text>
+<rect x="699" y="616" width="167" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="782.5" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Slicing problem ('25)</text>
+<rect x="874" y="616" width="144" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="946.0" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Kervaire 126 ('24)</text>
+<rect x="1026" y="616" width="140" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="1096.0" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Moving sofa ('24)</text>
+<rect x="1174" y="616" width="98" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="1223.0" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">McKay ('24)</text>
+<rect x="162" y="654" width="82" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="203.0" y="670.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">PFR ('23)</text>
+<rect x="252" y="654" width="188" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="346.0" y="670.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Aperiodic monotile ('23)</text>
+<rect x="448" y="654" width="71" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="483.5" y="670.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">+more ↓</text>
 <text x="12" y="722" fill="#71717a" font-size="12">github.com/evand/open-math-problems &#183; inspired by the Jacobian conjecture counterexample (Alp&#246;ge + Claude, July 2026)</text>
 </svg>

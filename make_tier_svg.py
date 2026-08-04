@@ -22,7 +22,7 @@ TIERS = [
     ("☠", "#b78aff", "Cursed: fame ≫ tractability",
      ["Collatz", "3×3 magic square of squares", "Perfect cuboid", "Brocard"]),
     ("🪦", "#9a9a9a", "Recently fell",
-     ["Jacobian conjecture ('26 ⭐)", "3D Kakeya ('25)", "Slicing problem ('25)", "Kervaire 126 ('24)",
+     ["Astra batch ×10 ('26 🤖)", "Jacobian conjecture ('26 ⭐)", "3D Kakeya ('25)", "Slicing problem ('25)", "Kervaire 126 ('24)",
       "Moving sofa ('24)", "McKay ('24)", "PFR ('23)", "Aperiodic monotile ('23)", "+more ↓"]),
 ]
 
