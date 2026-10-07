@@ -8,22 +8,22 @@ TIERS = [
      ["Birch–Swinnerton-Dyer", "Hodge", "Tate + Standard Conjectures", "Navier–Stokes regularity",
       "Yang–Mills mass gap", "abc", "Prime k-tuples (twin primes)", "Smooth 4D Poincaré",
       "Schanuel", "Bombieri–Lang", "One-way functions", "Fontaine–Mazur + Bloch–Kato",
-      "Borel & Novikov", "Hilbert's 16th", "Cosmic censorship"]),
+      "Borel & Novikov", "✱ Hilbert's 16th", "Cosmic censorship"]),
     ("B", "#ffdf80", "Major within their fields",
      ["Goldbach", "Lindelöf", "Zilber–Pink", "Inverse Galois", "Section conjecture",
       "Slice-ribbon", "L-space conjecture", "4D Schoenflies", "Mirror symmetry (SYZ/HMS)",
-      "Restriction", "Invariant subspace", "Soliton resolution", "Kaplansky", "Thompson's F amenable?",
-      "Hadwiger", "Erdős APs", "Sunflower", "Hadwiger–Nelson", "Inscribed square",
-      "Sphere packing (general d)", "Erdős–Hajnal", "Continuum problem", "Unique Games",
+      "Restriction", "Invariant subspace", "Soliton resolution", "✱ Kaplansky", "✱ Thompson's F amenable?",
+      "✱ Hadwiger", "✱ Erdős APs", "Sunflower", "Hadwiger–Nelson", "Inscribed square",
+      "Sphere packing (general d)", "Erdős–Hajnal", "Continuum problem", "✱ Unique Games",
       "ω = 2?", "VP vs VNP", "P = BPP", "KLS", "3D Ising", "KPZ",
-      "Free group factors ('26 +)", "MLC ('26 +)", "+44 more ↓"]),
+      "✱ Free group factors ('26 +)", "MLC ('26 +)", "+44 more ↓"]),
     ("C", "#7fff7f", "Famous but narrow",
      ["Odd perfect numbers", "∞ Mersenne primes", "Normality of π", "γ irrational?",
       "R(5,5)", "Frankl union-closed", "Beal", "Legendre", "Sendov", "Singmaster", "+4 more ↓"]),
     ("☠", "#b78aff", "Cursed: fame ≫ tractability",
      ["Collatz", "3×3 magic square of squares", "Perfect cuboid", "Brocard"]),
     ("🪦", "#9a9a9a", "Recently fell",
-     ["Astra batch ×10 ('26 🤖)", "Jacobian conjecture ('26 ⭐)", "3D Kakeya ('25)", "Slicing problem ('25)", "Kervaire 126 ('24)",
+     ["✱ openai/math ×722 ('26, pending)", "Astra batch ×10 ('26 🤖)", "Jacobian conjecture ('26 ⭐)", "3D Kakeya ('25)", "Slicing problem ('25)", "Kervaire 126 ('24)",
       "Moving sofa ('24)", "McKay ('24)", "PFR ('23)", "Aperiodic monotile ('23)", "+more ↓"]),
 ]
 
@@ -37,7 +37,7 @@ TITLE_H = 74
 
 def chip_w(text):
     # crude width estimate for a 13px sans font
-    wide = sum(1 for c in text if c in "WMmw@⭐×∞")
+    wide = sum(1 for c in text if c in "WMmw@⭐×∞✱")
     return int(len(text) * 6.9 + wide * 3 + 20)
 
 def esc(s):
@@ -70,6 +70,8 @@ svg.append(f'<text x="{PAD+2}" y="30" fill="#f4f4f5" font-size="22" font-weight=
 svg.append(f'<text x="{PAD+2}" y="54" fill="#a1a1aa" font-size="14">ranked by structural centrality '
            '&#215; how much a proof would transform mathematics &#8212; not fame, not difficulty &#183; '
            'July 2026 &#183; full annotated list below</text>')
+svg.append(f'<text x="{W-PAD-2}" y="30" fill="#f59e0b" font-size="13" text-anchor="end">'
+           '&#10033; = claimed settled by openai/math, Oct 2026 &#8212; unverified</text>')
 
 for name, color, sub, lines, ry, rh in rows:
     svg.append(f'<rect x="0" y="{ry}" width="{LABEL_W}" height="{rh}" fill="{color}"/>')
@@ -83,8 +85,10 @@ for name, color, sub, lines, ry, rh in rows:
     for line in lines:
         xx = LABEL_W + 2 + PAD
         for text, w in line:
+            claimed = text.startswith("✱")
+            stroke, sw = ("#f59e0b", 2) if claimed else ("#3f3f46", 1)
             svg.append(f'<rect x="{xx}" y="{yy}" width="{w}" height="{CHIP_H}" rx="6" fill="#2b2b31" '
-                       f'stroke="#3f3f46" stroke-width="1"/>')
+                       f'stroke="{stroke}" stroke-width="{sw}"/>')
             svg.append(f'<text x="{xx+w/2}" y="{yy+CHIP_H/2+1}" fill="#e4e4e7" font-size="{FONT}" '
                        f'text-anchor="middle" dominant-baseline="middle">{esc(text)}</text>')
             xx += w + CHIP_GAP

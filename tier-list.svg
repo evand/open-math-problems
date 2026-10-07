@@ -2,6 +2,7 @@
 <rect width="1280" height="734" fill="#131316"/>
 <text x="12" y="30" fill="#f4f4f5" font-size="22" font-weight="bold">Open Problems in Mathematics — a tier list</text>
 <text x="12" y="54" fill="#a1a1aa" font-size="14">ranked by structural centrality &#215; how much a proof would transform mathematics &#8212; not fame, not difficulty &#183; July 2026 &#183; full annotated list below</text>
+<text x="1268" y="30" fill="#f59e0b" font-size="13" text-anchor="end">&#10033; = claimed settled by openai/math, Oct 2026 &#8212; unverified</text>
 <rect x="0" y="74" width="150" height="64" fill="#ff7f7e"/>
 <rect x="152" y="74" width="1128" height="64" fill="#1e1e22"/>
 <text x="75.0" y="104.0" fill="#18181b" font-size="30" font-weight="bold" text-anchor="middle" dominant-baseline="middle">S</text>
@@ -42,8 +43,8 @@
 <text x="772.5" y="206.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Fontaine–Mazur + Bloch–Kato</text>
 <rect x="885" y="190" width="123" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
 <text x="946.5" y="206.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Borel &amp; Novikov</text>
-<rect x="1016" y="190" width="116" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="1074.0" y="206.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Hilbert's 16th</text>
+<rect x="1016" y="190" width="133" height="30" rx="6" fill="#2b2b31" stroke="#f59e0b" stroke-width="2"/>
+<text x="1082.5" y="206.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">✱ Hilbert's 16th</text>
 <rect x="162" y="228" width="140" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
 <text x="232.0" y="244.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Cosmic censorship</text>
 <rect x="0" y="274" width="150" height="166" fill="#ffdf80"/>
@@ -74,46 +75,46 @@
 <text x="549.0" y="338.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Invariant subspace</text>
 <rect x="629" y="322" width="144" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
 <text x="701.0" y="338.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Soliton resolution</text>
-<rect x="781" y="322" width="82" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="822.0" y="338.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Kaplansky</text>
-<rect x="871" y="322" width="177" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="959.5" y="338.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Thompson's F amenable?</text>
-<rect x="1056" y="322" width="78" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="1095.0" y="338.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Hadwiger</text>
-<rect x="1142" y="322" width="82" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="1183.0" y="338.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Erdős APs</text>
-<rect x="162" y="360" width="85" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="204.5" y="376.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Sunflower</text>
-<rect x="255" y="360" width="126" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="318.0" y="376.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Hadwiger–Nelson</text>
-<rect x="389" y="360" width="130" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="454.0" y="376.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Inscribed square</text>
-<rect x="527" y="360" width="199" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="626.5" y="376.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Sphere packing (general d)</text>
-<rect x="734" y="360" width="102" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="785.0" y="376.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Erdős–Hajnal</text>
-<rect x="844" y="360" width="143" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="915.5" y="376.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Continuum problem</text>
-<rect x="995" y="360" width="105" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="1047.5" y="376.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Unique Games</text>
-<rect x="1108" y="360" width="61" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="1138.5" y="376.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">ω = 2?</text>
-<rect x="1177" y="360" width="82" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="1218.0" y="376.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">VP vs VNP</text>
-<rect x="162" y="398" width="68" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="196.0" y="414.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">P = BPP</text>
-<rect x="238" y="398" width="40" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="258.0" y="414.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">KLS</text>
-<rect x="286" y="398" width="75" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="323.5" y="414.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">3D Ising</text>
-<rect x="369" y="398" width="40" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="389.0" y="414.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">KPZ</text>
-<rect x="417" y="398" width="199" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="516.5" y="414.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Free group factors ('26 +)</text>
-<rect x="624" y="398" width="98" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="673.0" y="414.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">MLC ('26 +)</text>
-<rect x="730" y="398" width="92" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="776.0" y="414.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">+44 more ↓</text>
+<rect x="781" y="322" width="98" height="30" rx="6" fill="#2b2b31" stroke="#f59e0b" stroke-width="2"/>
+<text x="830.0" y="338.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">✱ Kaplansky</text>
+<rect x="887" y="322" width="194" height="30" rx="6" fill="#2b2b31" stroke="#f59e0b" stroke-width="2"/>
+<text x="984.0" y="338.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">✱ Thompson's F amenable?</text>
+<rect x="1089" y="322" width="95" height="30" rx="6" fill="#2b2b31" stroke="#f59e0b" stroke-width="2"/>
+<text x="1136.5" y="338.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">✱ Hadwiger</text>
+<rect x="162" y="360" width="98" height="30" rx="6" fill="#2b2b31" stroke="#f59e0b" stroke-width="2"/>
+<text x="211.0" y="376.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">✱ Erdős APs</text>
+<rect x="268" y="360" width="85" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="310.5" y="376.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Sunflower</text>
+<rect x="361" y="360" width="126" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="424.0" y="376.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Hadwiger–Nelson</text>
+<rect x="495" y="360" width="130" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="560.0" y="376.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Inscribed square</text>
+<rect x="633" y="360" width="199" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="732.5" y="376.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Sphere packing (general d)</text>
+<rect x="840" y="360" width="102" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="891.0" y="376.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Erdős–Hajnal</text>
+<rect x="950" y="360" width="143" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="1021.5" y="376.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Continuum problem</text>
+<rect x="1101" y="360" width="122" height="30" rx="6" fill="#2b2b31" stroke="#f59e0b" stroke-width="2"/>
+<text x="1162.0" y="376.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">✱ Unique Games</text>
+<rect x="162" y="398" width="61" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="192.5" y="414.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">ω = 2?</text>
+<rect x="231" y="398" width="82" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="272.0" y="414.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">VP vs VNP</text>
+<rect x="321" y="398" width="68" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="355.0" y="414.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">P = BPP</text>
+<rect x="397" y="398" width="40" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="417.0" y="414.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">KLS</text>
+<rect x="445" y="398" width="75" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="482.5" y="414.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">3D Ising</text>
+<rect x="528" y="398" width="40" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="548.0" y="414.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">KPZ</text>
+<rect x="576" y="398" width="216" height="30" rx="6" fill="#2b2b31" stroke="#f59e0b" stroke-width="2"/>
+<text x="684.0" y="414.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">✱ Free group factors ('26 +)</text>
+<rect x="800" y="398" width="98" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="849.0" y="414.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">MLC ('26 +)</text>
+<rect x="906" y="398" width="92" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="952.0" y="414.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">+44 more ↓</text>
 <rect x="0" y="444" width="150" height="90" fill="#7fff7f"/>
 <rect x="152" y="444" width="1128" height="90" fill="#1e1e22"/>
 <text x="75.0" y="487.0" fill="#18181b" font-size="30" font-weight="bold" text-anchor="middle" dominant-baseline="middle">C</text>
@@ -156,25 +157,27 @@
 <rect x="152" y="606" width="1128" height="90" fill="#1e1e22"/>
 <text x="75.0" y="649.0" fill="#18181b" font-size="30" font-weight="bold" text-anchor="middle" dominant-baseline="middle">🪦</text>
 <text x="75.0" y="671.0" fill="#18181b" font-size="10.5" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Recently fell</text>
-<rect x="162" y="616" width="181" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="252.5" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Astra batch ×10 ('26 🤖)</text>
-<rect x="351" y="616" width="209" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="455.5" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Jacobian conjecture ('26 ⭐)</text>
-<rect x="568" y="616" width="123" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="629.5" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">3D Kakeya ('25)</text>
-<rect x="699" y="616" width="167" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="782.5" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Slicing problem ('25)</text>
-<rect x="874" y="616" width="144" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="946.0" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Kervaire 126 ('24)</text>
-<rect x="1026" y="616" width="140" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="1096.0" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Moving sofa ('24)</text>
-<rect x="1174" y="616" width="98" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="1223.0" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">McKay ('24)</text>
-<rect x="162" y="654" width="82" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="203.0" y="670.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">PFR ('23)</text>
-<rect x="252" y="654" width="188" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="346.0" y="670.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Aperiodic monotile ('23)</text>
-<rect x="448" y="654" width="71" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
-<text x="483.5" y="670.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">+more ↓</text>
+<rect x="162" y="616" width="256" height="30" rx="6" fill="#2b2b31" stroke="#f59e0b" stroke-width="2"/>
+<text x="290.0" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">✱ openai/math ×722 ('26, pending)</text>
+<rect x="426" y="616" width="181" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="516.5" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Astra batch ×10 ('26 🤖)</text>
+<rect x="615" y="616" width="209" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="719.5" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Jacobian conjecture ('26 ⭐)</text>
+<rect x="832" y="616" width="123" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="893.5" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">3D Kakeya ('25)</text>
+<rect x="963" y="616" width="167" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="1046.5" y="632.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Slicing problem ('25)</text>
+<rect x="162" y="654" width="144" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="234.0" y="670.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Kervaire 126 ('24)</text>
+<rect x="314" y="654" width="140" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="384.0" y="670.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Moving sofa ('24)</text>
+<rect x="462" y="654" width="98" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="511.0" y="670.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">McKay ('24)</text>
+<rect x="568" y="654" width="82" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="609.0" y="670.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">PFR ('23)</text>
+<rect x="658" y="654" width="188" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="752.0" y="670.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">Aperiodic monotile ('23)</text>
+<rect x="854" y="654" width="71" height="30" rx="6" fill="#2b2b31" stroke="#3f3f46" stroke-width="1"/>
+<text x="889.5" y="670.0" fill="#e4e4e7" font-size="13" text-anchor="middle" dominant-baseline="middle">+more ↓</text>
 <text x="12" y="722" fill="#71717a" font-size="12">github.com/evand/open-math-problems &#183; inspired by the Jacobian conjecture counterexample (Alp&#246;ge + Claude, July 2026)</text>
 </svg>
